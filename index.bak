@@ -44,12 +44,12 @@
         </div>
       </section>
 
-      <hr />
+      <hr>
 
       <!-- Services Section -->
       <section class="services">
         <h4>My Services</h4>
-        <div class="service-cards-container">
+        <div class="service-cards-container">     
           <div class="service-card">
             <h5>
               <i
@@ -128,55 +128,56 @@
         </div>
       </section>
 
-      <hr />
-
+      <hr>
+      
       <!-- Recent Projects -->
       <section class="portfolio">
-        <h4>Recent Projects</h4>
-        <div class="card__container">
-          <div class="portfolio__card">
-            <img
-              class="portfolio__img"
-              src="resources/images/coffee-shop.jpg"
-              alt="coffee shop"
-            />
-            <h5>Coffee Club</h5>
-            <p>Small Business | Online Ordering | Online Payments</p>
-          </div>
-          <div class="portfolio__card">
-            <img
-              class="portfolio__img"
-              src="resources/images/dog-grooming.jpg"
-              alt="dog grooming"
-            />
-            <h5>Pawfection</h5>
-            <p>Small Business |Online Bookings | Online Payments</p>
-          </div>
-          <div class="portfolio__card">
-            <img
-              class="portfolio__img"
-              src="resources/images/rugby club.jpg"
-              alt="rugby club"
-            />
-            <h5>Sports Club</h5>
-            <p>Sports Club | News & Fixtures | Events Booking</p>
+        <h4>Recent Projects</h4>        
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--left is-hidden"><i class="fa-solid fa-chevron-left fa-2xl" style="color: #fff;"></i></i></button>
+          <div class="carousel__track-container">
+            <div class="carousel__track">
+              <div class="carousel__slide current-slide">
+                <img class="carousel__img" src="resources/images/coffee-shop.jpg" alt="coffee shop" />
+                <h5>Coffee Club</h5>
+                <p>Small Business | Online Ordering | Online Payments</p>
+          ¡    </div>
+              <div class="carousel__slide">
+                <img class="carousel__img"
+                  src="resources/images/dog-grooming.jpg" alt="dog grooming"/>
+                <h5>Pawfection</h5>
+                <p>Small Business |Online Bookings | Online Payments</p>
+              </div>
+              <div class="carousel__slide">
+                <img class="carousel__img" src="resources/images/rugby club.jpg" alt="rugby club" />
+                <h5>Sports Club</h5>
+                <p>Sports Club | News & Fixtures | Events Booking</p>
+              </div>
+            </div>          
+          </div>          
+          <button class="carousel__btn carousel__btn--right"><i class="fa-solid fa-2xl fa-chevron-right" style="color: #ffffff;"></i></button>
+          <div class="dotNav carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
           </div>
         </div>
       </section>
 
-      <hr />
-
+      <hr>
+      
       <!-- Footer -->
       <footer>
         <div>
-          <i class="fa-solid fa-copyright fa-2xs" style="color: #ffffff"></i>
-          2025 Front5Design
+          <i class="fa-solid fa-copyright fa-2xs" style="color: #ffffff;"></i> 2025 Front5Design
         </div>
-        <img src="resources/images/f5logo.svg" alt="company logo" />
+        <img src="resources/images/f5logo.svg" alt="company logo">
       </footer>
+
     </div>
 
     <!-- Links to JS scripts -->
+    <script src="js/carousel.js"></script>
     <script src="js/hamburger-menu.js"></script>
   </body>
 </html>
